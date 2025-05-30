@@ -2,8 +2,6 @@
 
 A fast, in-place, non-auxiliary sorting algorithm that preserves original sort order context.
 
-## Reference
-
 `sort_a_stable_ascending()` and `sort_a_stable_descending()` are the stable sorting functions that sort elements in either ascending or descending order while preserving original sort order context.
 
 They accept the following 2 arguments in left-to-right order.
@@ -11,17 +9,11 @@ They accept the following 2 arguments in left-to-right order.
 1. `input_count` is the count of elements in `input`.
 2. `input` is the array of elements to sort.
 
-## Classification
-
 It's in the same class as Bubble Sort, Insertion Sort and Stable Binary Insertion Sort.
-
-## Speed
 
 It's the fastest stable sorting algorithm that doesn't require substantial auxiliary space for sorted runs or unsorted subarrays.
 
 I welcome submissions of algorithms in the same class that challenge the aforementioned claim.
-
-## Security
 
 The following security explanation uses the context of ascending sort order.
 
