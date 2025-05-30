@@ -1,6 +1,6 @@
 # Sort A Stable
 
-A fast, in-place, non-auxiliary sorting algorithm that preserves original sort order context.
+It's a fast, in-place, non-auxiliary, stable sorting algorithm.
 
 `sort_a_stable_ascending()` and `sort_a_stable_descending()` are the stable sorting functions that sort elements in either ascending or descending order while preserving original sort order context.
 
