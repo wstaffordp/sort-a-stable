@@ -1,11 +1,11 @@
 #include "sort_a_stable.h"
 
-void sort_a_stable_ascending(uintptr_t input_count, int *input) {
+void sort_a_stable_ascending(size_t input_count, int *input) {
   int input_capture;
-  uintptr_t gap;
-  uintptr_t i = 1;
-  uintptr_t j;
-  uintptr_t k = 0;
+  size_t gap;
+  size_t i = 1;
+  size_t j;
+  size_t k = 0;
 
   if (input_count < 200) {
     while (i < input_count) {
@@ -89,12 +89,12 @@ void sort_a_stable_ascending(uintptr_t input_count, int *input) {
   }
 }
 
-void sort_a_stable_descending(uintptr_t input_count, int *input) {
+void sort_a_stable_descending(size_t input_count, int *input) {
   int input_capture;
-  uintptr_t gap;
-  uintptr_t i = 1;
-  uintptr_t j;
-  uintptr_t k = 0;
+  size_t gap;
+  size_t i = 1;
+  size_t j;
+  size_t k = 0;
 
   if (input_count < 200) {
     while (i < input_count) {
